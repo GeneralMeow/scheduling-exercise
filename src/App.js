@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { employees } from './data';
+import { employees } from './data1';
 
 class App extends Component {
   render() {
