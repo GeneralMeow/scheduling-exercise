@@ -3,87 +3,111 @@ const employees = [
     name: 'Jordan Brown',
     shifts: [
       {
-        start_at: '2017-12-18T12:00:00-08:00',
-        end_at: '2017-12-18T17:00:00-08:00',
-        role: 'Server',
-        color: 'red'
-      },
-      {
-        start_at: '2017-12-19T09:00:00-08:00',
-        end_at: '2017-12-19T12:00:00-08:00',
+        day: 1,
+        start_at: '9am',
+        end_at: '12pm',
+        duration: 3,
         role: 'Host',
         color: 'green'
       },
       {
-        start_at: '2017-12-20T09:00:00-08:00',
-        end_at: '2017-12-20T16:00:00-08:00',
+        day: 3,
+        start_at: '9am',
+        end_at: '4pm',
+        duration: 7,
         role: 'Server',
         color: 'red'
       },
       {
-        start_at: '2017-12-21T09:00:00-08:00',
-        end_at: '2017-12-20T14:00:00-08:00',
+        day: 0,
+        start_at: '12pm',
+        end_at: '5pm',
+        duration: 5,
+        role: 'Server',
+        color: 'red'
+      },
+      {
+        day: 5,
+        start_at: '9am',
+        end_at: '2pm',
+        duration: 5,
         role: 'Host',
         color: 'green'
       }
     ]
   },
   {
-    name: 'Tim Cannady',
+    name: 'tim Cannady',
     shifts: [
       {
-        start_at: '2017-12-18T11:00:00-08:00',
-        end_at: '2017-12-18T18:00:00-08:00',
-        role: 'Chef',
-        color: 'orange'
-      },
-      {
-        start_at: '2017-12-19T09:00:00-08:00',
-        end_at: '2017-12-19T15:00:00-08:00',
+        day: 1,
+        start_at: '9am',
+        end_at: '3pm',
+        duration: 6,
         role: 'Dishwasher',
         color: 'purple'
       },
       {
-        start_at: '2017-12-20T09:00:00-08:00',
-        end_at: '2017-12-20T13:00:00-08:00',
+        day: 0,
+        start_at: '11am',
+        end_at: '6pm',
+        duration: 7,
         role: 'Chef',
         color: 'orange'
       },
       {
-        start_at: '2017-12-21T09:00:00-08:00',
-        end_at: '2017-12-21T16:00:00-08:00',
+        day: 5,
+        start_at: '9pm',
+        end_at: '4am',
+        duration: 7,
         role: 'Dishwasher',
         color: 'purple'
-      }
+      },
+      {
+        day: 2,
+        start_at: '9am',
+        end_at: '1pm',
+        duration: 4,
+        role: 'Chef',
+        color: 'orange'
+      },
     ]
   },
   {
-    name: 'Jeff Auston',
+    name: 'Jeff auston',
     shifts: [
       {
-        start_at: '2017-12-18T11:00:00-08:00',
-        end_at: '2017-12-18T18:00:00-08:00',
-        role: 'Chef',
-        color: 'orange'
-      },
-      {
-        start_at: '2017-12-19T09:00:00-08:00',
-        end_at: '2017-12-19T15:00:00-08:00',
+        day: 6,
+        start_at: '9am',
+        end_at: '4pm',
+        duration: 7,
         role: 'Dishwasher',
         color: 'purple'
       },
       {
-        start_at: '2017-12-20T09:00:00-08:00',
-        end_at: '2017-12-20T13:00:00-08:00',
+        day: 1,
+        start_at: '11am',
+        end_at: '6pm',
+        duration: 7,
         role: 'Chef',
         color: 'orange'
       },
       {
-        start_at: '2017-12-21T09:00:00-08:00',
-        end_at: '2017-12-21T16:00:00-08:00',
+        day: 2,
+        start_at: '9am',
+        end_at: '3pm',
+        duration: 6,
         role: 'Dishwasher',
         color: 'purple'
-      }
+      },
+      {
+        day: 4,
+        start_at: '9am',
+        end_at: '1pm',
+        duration: 4,
+        role: 'Chef',
+        color: 'orange'
+      },
     ]
   }
 ];

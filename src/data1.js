@@ -37,7 +37,7 @@ const employees = [
     ]
   },
   {
-    name: 'Tim Cannady',
+    name: 'tim Cannady',
     shifts: [
       {
         day: 0,
@@ -65,8 +65,8 @@ const employees = [
       },
       {
         day: 5,
-        start_at: '9am',
-        end_at: '4pm',
+        start_at: '9pm',
+        end_at: '4am',
         duration: 7,
         role: 'Dishwasher',
         color: 'purple'
@@ -74,7 +74,7 @@ const employees = [
     ]
   },
   {
-    name: 'Jeff Auston',
+    name: 'Jeff auston',
     shifts: [
       {
         day: 1,
