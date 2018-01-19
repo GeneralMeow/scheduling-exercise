@@ -11,4 +11,5 @@
     ```
 1. `git clone https://github.com/pioneerworks/scheduling-exercise.git`
 1. `cd scheduling-exercise`
+1. `npm install`
 1. `npm start` 
