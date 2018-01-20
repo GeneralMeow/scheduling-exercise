@@ -13,3 +13,7 @@
 1. `cd scheduling-exercise`
 1. `npm install`
 1. `npm start` 
+
+### Build
+
+Nice work! Let's head over to [your first ticket](./docs/step_1.md) and start building. 
